@@ -10,7 +10,7 @@ ports:
 tasks:
   #- init: echo 'init script' # runs during prebuild
   #  command: echo 'start script'
-  - command: apachectl -f /workspace/GitPod-Blank-PHP/apache/apache.conf
+  - command: apachectl -f $GITPOD_REPO_ROOT/apache/apache.conf
 vscode:
   extensions:
     - prateekmahendrakar.prettyxml@0.7.1:SGIp6kXx6QXKzaa9V2n9Pg==
