@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>403 - Forbidden</h1>
-    <p>You have attempted to access an resoursce that you do not have access to.</p>
+    <p>You have attempted to access an resoursce (<b><i><?php echo $_SERVER['REQUEST_URI']; ?></i></b>) that you do not have access to.</p>
     <hr />
     <footer>
         <address>
